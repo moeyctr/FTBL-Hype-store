@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+nav {
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+nav .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.boot-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.boot-gallery img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.boot-gallery img:hover {
+  transform: scale(1.1);
+}
